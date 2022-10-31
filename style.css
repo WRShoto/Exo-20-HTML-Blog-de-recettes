@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
+body{
+    margin: 10px 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image:url("https://img.freepik.com/vecteurs-libre/temple-japonais-entoure-nature_52683-46009.jpg?w=2000");
+}
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+
+nav .onglets{
+    margin-top:40px;
+
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color:orangered;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.articles{
+    margin-top: 30px;
+}
+
+.articles .article{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.articles .article .left img{
+    height: 300px;
+    width: 500px;
+}
+
+.articles .article .right{
+    margin-left: 35px;
+    max-width: 50%;
+}
+
+.articles .article div p a{
+    text-decoration: none;
+    color:orangered;
+}
+
+.ingrédiens img{
+    margin-top: 20px;
+    margin-left:25px;
+    height: 80px;
+    width: 100px;
+}
+
+.ingrédiens h1{
+    text-decoration: underline;
+}
+
+.recettes h2{
+    text-decoration: underline;
+}
+
+.recettes p{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+div .inscription{
+    display: table;
+    width: 100%;
+}
+form{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
